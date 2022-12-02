@@ -6,6 +6,6 @@ public class Animal {
         this.nombre = nombre;
     }
     void imprime () {
-        System.out.print("¡Guau! me llamo " + nombre);
+        System.out.print("¡Wolf! mi nombre es " + nombre);
     }
 }
