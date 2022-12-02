@@ -2,7 +2,7 @@ public class perro extends Animal {
     String raza;
 
     public perro () {
-        // Default constructor
+
     }
 
     public perro(String raza) {
@@ -10,14 +10,14 @@ public class perro extends Animal {
     }
 
     public perro(String nombre, String raza) {
-        //super.nombre = nombre; //Versión inicial
-        super(nombre); // Versión modificada
+       
+        super(nombre); 
         this.raza = raza;
     }
 
     void imprime () {
         System.out.println("¡Guau! me llamo " + super.nombre + " y soy un " + raza);
-        // También se podría quitar el super, poque no hay ambiguedad. Misma lógica que con this.
+
         System.out.println("¡Guau! me llamo " + nombre + " y soy un " + raza);
     }
 
